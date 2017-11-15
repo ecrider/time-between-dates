@@ -49,7 +49,7 @@ timeBetweenDates(x, y, 'minutes', 1);  // returns 6826.8
 // ... and so on
 timeBetweenDates(x, y, 'hours', 4);    // returns 113.779
 timeBetweenDates(x, y, 'days',  2);    // returns 4.74
-timeBetweenDates(x, y, 'weeks', 3);    // returns 0.6772586
+timeBetweenDates(x, y, 'weeks', 3);    // returns 0.677
 
 // "time since"
 var now = Date.now();

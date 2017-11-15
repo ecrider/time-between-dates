@@ -1,5 +1,5 @@
 module.exports = function timeBetweenDates(first, second, units, decimal) {
-  var now  = (new Date()).getTime();
+  var now  = Date.now();
   var dec  = decimal || 0;
   var test = Math.floor(Math.abs((now - first) - (now - second)));
   switch (units) {
@@ -8,6 +8,7 @@ module.exports = function timeBetweenDates(first, second, units, decimal) {
     case 'hours':   return +(test / (1000 * 60 * 60)).toFixed(dec); break;
     case 'days':    return +(test / (1000 * 60 * 60 * 24)).toFixed(dec); break;
     case 'weeks':   return +(test / (1000 * 60 * 60 * 24 * 7)).toFixed(dec); break;
+    case 'years':   return +(test / (1000 * 60 * 60 * 24 * 365)).toFixed(dec); break;
     default:        return test;
   }
 };

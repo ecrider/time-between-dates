@@ -4,7 +4,7 @@ Simple script to measure time between two dates. Returns result in miliseconds, 
 
 ## Installation
 
- Install via **[npm](https://www.npmjs.com/package/time-between)**
+ Install via **[npm](https://www.npmjs.com/package/time-between-dates)**
 ```shell
 $ npm install time-between-dates
 ```

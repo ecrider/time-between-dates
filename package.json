@@ -9,5 +9,5 @@
   },
   "license": "MIT",
   "main": "time_between_dates.js",
-  "keywords": ["date", "datetime", "time-difference", "time-between", "time"],
+  "keywords": ["date", "datetime", "time-difference", "time-between", "time"]
 }

@@ -50,6 +50,7 @@ timeBetweenDates(x, y, 'minutes', 1);  // returns 6826.8
 timeBetweenDates(x, y, 'hours', 4);    // returns 113.779
 timeBetweenDates(x, y, 'days',  2);    // returns 4.74
 timeBetweenDates(x, y, 'weeks', 3);    // returns 0.677
+timeBetweenDates(x, y, 'years', 3);    // returns 0.013
 
 // "time since"
 var now = Date.now();
@@ -61,6 +62,7 @@ timeBetweenDates(x, now, 'days', 2);
 **Kuba Paczyński**
 * [github/ecrider](https://github.com/ecrider)
 * [npmjs/new31337](https://www.npmjs.com/~new31337)
+* [twitter/new31337](https://twitter.com/new31337)
 * [linkedin/kuba-paczynski](https://www.linkedin.com/in/kuba-paczynski/)
 
 

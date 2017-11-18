@@ -1,6 +1,6 @@
 {
   "name": "time-between-dates",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Measure time between two dates",
   "author": "Kuba Paczyński <kuba.paczynski@gmail.com>",
   "repository": "https://github.com/ecrider/time-between-dates",
@@ -9,5 +9,5 @@
   },
   "license": "MIT",
   "main": "time_between_dates.js",
-  "keywords": ["date", "datetime", "time-difference", "time-between", "time"]
+  "keywords": ["date", "time", "datetime", "time-difference", "time-between", "time-since"]
 }
